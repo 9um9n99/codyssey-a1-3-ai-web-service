@@ -107,7 +107,7 @@ npx vercel dev
 ## 배포 방법 (Vercel)
 
 1. 이 폴더를 GitHub에 push해요.
-2. Vercel에서 저장소를 Import해요. 프로젝트가 저장소 안의 하위 폴더라면 **Root Directory**를 그 폴더(`AI-Native-Advance/A1-3-ai-web-service`)로 지정하고, Framework Preset은 `Other`로 둬요.
+2. Vercel에서 저장소를 Import해요. 이 저장소는 프로젝트가 저장소 루트에 있어서 **Root Directory**는 기본값(비워두기) 그대로 두고, Framework Preset은 `Other`로 둬요.
 3. **Settings → Environment Variables**에 위 환경 변수 2개를 등록해요.
 4. Deploy해요. 환경 변수를 나중에 바꿨다면 **Redeploy**해야 반영돼요.
 
